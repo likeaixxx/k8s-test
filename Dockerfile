@@ -1,5 +1,5 @@
 FROM openjdk:17
-LABEL authors="chenaiquan"
+LABEL authors="likeai"
 
 COPY ./build/libs/k8s-test-0.0.1-SNAPSHOT.jar /app.jar
 CMD ["--server.port=8080"]
